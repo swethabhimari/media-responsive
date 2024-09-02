@@ -1,0 +1,142 @@
+.head{
+    background-color: rgb(107, 107, 207);
+    text-align: center;
+   padding: 5vh 0vw 5vh 0vw;
+}
+a{
+    color:white;
+    text-decoration: none;
+}
+.myp{
+    text-align: center;
+    position: relative;
+    top:30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.about{
+    text-align: center;
+    position: relative;
+    top:150px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.projects{
+    text-align: center;
+    position: relative;
+    top:230px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    .pr1{
+      background-color: rgb(248, 248, 248);
+      width:25vw;
+      height: 23vh;
+      position: relative;
+      left:25vw;
+      top:3vh;
+    }
+    .pr2{
+        background-color:  rgb(248, 248, 248);
+      width:25vw;
+      height: 23vh;
+      position: relative;
+      left:55vw;
+      bottom: 20vh;
+    }
+    .ppr1{
+    position: relative;
+    top:5vh;
+    }
+    .ppr2{
+        position: relative;
+        top:5vh;
+        }
+        p{
+        font-size: 15px;
+        margin-top: 5vh;
+        }
+}
+.contact{
+    text-align: center;
+    position: relative;
+    top:50vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:30px ;
+    .lab{
+        font-size: 12px;
+        position: relative;
+        top:3vh;
+    }
+}
+.footer{
+    background-color: blueviolet;
+    position: relative;
+    top:50vh;
+    .pf{
+        color:white;
+        text-align: center;
+        padding: 30px 0px 30px 0px;
+    }
+}
+@media screen and (min-width:1750px) {
+    nav{
+        display: grid;
+        grid-template-columns: auto;
+        column-gap: 20vw;
+        width: 700v2;
+        height: 100vh;
+}
+}
+@media screen and (max-width: 800px) {
+    .myp,
+    .about,
+    .projects,
+    .contact,
+    .footer {
+        margin-top: 50px;
+    }
+
+    .projects .pr1,
+    .projects .pr2 {
+        width: 100%;
+        margin: 150px 0;
+        left: 0;
+        right: 0;
+    }
+
+    .projects {
+        margin-top: 100px;
+    }
+
+    .contact {
+        margin-top: 20vh;
+        font-size: 22px;
+    }
+
+    .footer {
+        margin-top: 20vh;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .myp,
+    .about,
+    .projects,
+    .contact,
+    .footer {
+        margin-top: 30px;
+        padding: 0 10px;
+    }
+
+    .projects .pr1,
+    .projects .pr2 {
+        width: 100%;
+        margin: 150px 0;
+    }
+
+    .contact {
+        margin-top: 15vh;
+        font-size: 20px;
+    }
+
+    .footer {
+        margin-top: 15vh;
+    }
+}
